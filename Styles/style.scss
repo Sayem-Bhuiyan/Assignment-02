@@ -171,5 +171,21 @@
                     }
                 }
             }
+            .container {
+                margin-top: 40px;
+                .img-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 25px;
+                    .img-wraper {
+                        box-shadow: 8px 6px 50px 9px rgba(0, 0, 0, 0.308);
+                        img {
+                            height: 306px;
+                            width: 252px;
+                        }
+                    }
+                }
+            }
         }
     }

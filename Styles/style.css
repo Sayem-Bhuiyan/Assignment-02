@@ -165,4 +165,20 @@ body main .social-part .social-section p {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+}
+body main .container {
+  margin-top: 40px;
+}
+body main .container .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+body main .container .img-container .img-wraper {
+  box-shadow: 8px 6px 50px 9px rgba(0, 0, 0, 0.308);
+}
+body main .container .img-container .img-wraper img {
+  height: 306px;
+  width: 252px;
 }/*# sourceMappingURL=style.css.map */
