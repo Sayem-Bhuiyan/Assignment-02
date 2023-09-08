@@ -7,7 +7,7 @@
 // Share styles
 .primary-button {
     color: #fff;
-    background-color: #E55473;
+    background-color: #f5486e;
     border-radius: 8px;
     padding: 20px 40px;
     border: none;
@@ -23,7 +23,7 @@ body {
             position: relative;
             width: 100%;
             height: 580px;
-            background-color: rgba(228, 139, 158, 0.349);
+            background-color: rgba(235, 149, 168, 0.295);
             .header-content {
                 position: absolute;
                 display: flex;
@@ -88,6 +88,20 @@ body {
                     img {
                         height: 350px;
                         width: 280px;
+                    }
+                }
+            }
+            .img-description {
+                display: flex;
+                justify-content: center;
+                margin-top: 18px;
+                gap: 180px;
+                p {
+                    a {
+                        color: #272727;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 30px;
                     }
                 }
             }
