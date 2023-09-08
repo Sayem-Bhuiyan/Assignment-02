@@ -55,4 +55,42 @@ body {
             }
         }
     }
+    main {
+        .main-section {
+            margin-top: 130px;
+            .section-info {
+                text-align: center;
+                .section-title {
+                    color: #272727;
+                    font-size: 40px;
+                    font-weight: 700;
+                }
+                .section-description {
+                    color: rgba(39, 39, 39, 0.60);
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+            .content-wraper {
+                display: flex;
+                justify-content: center;
+                gap: 35px;
+                margin-top: 70px;
+                position: relative;
+                .wraper-img {
+                    height: 400px;
+                    width: 350px;
+                    border-top-left-radius: 50%;
+                    border-top-right-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+                    img {
+                        height: 350px;
+                        width: 280px;
+                    }
+                }
+            }
+        }
+    }
 }
