@@ -101,4 +101,20 @@ body main .main-section .img-description p a {
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
+}
+body main .services {
+  height: 150px;
+  margin: 100px 118px;
+  background-color: rgba(39, 39, 39, 0.315);
+  position: relative;
+}
+body main .services .service-wraper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+body main .services .service-wraper .service-content {
+  text-align: center;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */

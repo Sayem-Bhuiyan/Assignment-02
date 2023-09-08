@@ -107,5 +107,21 @@ body {
                 }
             }
         }
+        .services {
+            height: 150px;
+            margin: 100px 118px;
+            background-color: rgba(39, 39, 39, 0.315);
+            position: relative;
+            .service-wraper {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-top: 10px;
+                .service-content {
+                    text-align: center;
+                    margin-top: 20px;
+                }
+            }
+        }
     }
 }
