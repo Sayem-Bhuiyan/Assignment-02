@@ -117,4 +117,32 @@ body main .services .service-wraper {
 body main .services .service-wraper .service-content {
   text-align: center;
   margin-top: 20px;
+}
+body .deal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(235, 149, 168, 0.295);
+  gap: 100px;
+}
+body .deal-container .deal-wraper {
+  width: 50%;
+  text-align: center;
+}
+body .deal-container .deal-wraper h3 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+body .deal-container .deal-wraper h3 span {
+  color: #E55473;
+}
+body .deal-container .deal-wraper p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
